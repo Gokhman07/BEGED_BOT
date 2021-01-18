@@ -33,7 +33,7 @@ logging.basicConfig(format='%(asctime)s-$(levelname)s-$(message)s',
                     filename='bot.log')
 
 
-ls_cats=build_regex_cats()p
+ls_cats=build_regex_cats()
 ls_subcats=build_regex_subcats()
 #нкцию main, которая соединяется с платформой Telegram
 def main():
