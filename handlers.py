@@ -28,7 +28,7 @@ def main_keyboard(bot, update):
   
     bot.message.reply_text("Main menu", reply_markup=build_cats(bot, update))
 
-ение!'.format(bot.message.chat.first_name))
+
 
 def make_keyboard(bot,update):
    result=[]
