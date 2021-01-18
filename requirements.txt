@@ -1,12 +1,12 @@
 APScheduler==3.6.3
-asn1crypto @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/asn1crypto_1593158281854/work
+
 beautifulsoup4==4.9.3
 bs4==0.0.1
 certifi==2020.4.5.2
 cffi==1.14.0
 chardet==3.0.4
 conda==4.8.3
-conda-package-handling @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/conda-package-handling_1593158640758/work
+
 cryptography==2.9.2
 cycler==0.10.0
 Cython==0.29.17
@@ -14,9 +14,6 @@ daal4py==0.2020.2
 decorator==4.4.2
 emoji==0.6.0
 funcsigs==1.0.2
-idna @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/idna_1593158173365/work
-joblib @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/joblib_1593162707617/work
-kiwisolver @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/kiwisolver_1593160527998/work
 libarchive-c==2.8
 llvmlite==0.32.1+0.gaa11b12.dirty
 matplotlib==3.1.2
@@ -40,17 +37,17 @@ pyparsing==2.4.7
 PySocks==1.7.0
 python-dateutil==2.8.1
 python-telegram-bot==13.1
-pytz @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/pytz_1593160194037/work
+
 PyYAML==5.3
 requests==2.23.0
 ruamel-yaml==0.15.99
 scikit-learn==0.23.1
 scipy==1.4.1
-six @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/six_1593157960255/work
+
 soupsieve==2.1
 TBB==0.1
 tornado==6.1
-tqdm @ file:///localdisk/tc/agent/work/77d6987f4a2d253e/conda-build/tqdm_1593158615959/work
+ork
 tzlocal==2.1
 urllib3==1.25.9
 Wand==0.6.5
