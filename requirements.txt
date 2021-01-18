@@ -15,7 +15,7 @@ decorator==4.4.2
 emoji==0.6.0
 funcsigs==1.0.2
 libarchive-c==2.8
-llvmlite==0.32.1+0.gaa11b12.dirty
+
 matplotlib==3.1.2
 mkl-fft==1.1.0
 mkl-random==1.1.1
