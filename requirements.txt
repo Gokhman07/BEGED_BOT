@@ -18,8 +18,7 @@ libarchive-c==2.8
 
 matplotlib==3.1.2
 
-mkl-random==1.1.1
-mkl-service==2.3.0
+
 mysql-connector==2.2.9
 mysql-connector-python==8.0.22
 numba==0.49.1+0.gd2cac8597.dirty
