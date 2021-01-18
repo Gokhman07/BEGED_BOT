@@ -10,7 +10,7 @@ chardet==3.0.4
 cryptography==2.9.2
 cycler==0.10.0
 Cython==0.29.17
-daal4py==0.2020.2
+
 decorator==4.4.2
 emoji==0.6.0
 funcsigs==1.0.2
