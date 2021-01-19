@@ -244,6 +244,10 @@ def get_cart(bot, update):
         user="b48ccb42b8085e",
         password="35496a0e1113b15",
         database="heroku_4afafbce41d9e66" )
+        
+        global i
+                    
+        i=0
 
         
         cursor = mydb.cursor()
@@ -308,6 +312,7 @@ def edit_cart(bot, update, quer=0):
         cursor = mydb.cursor()
         cursor.execute(f"SELECT orders.good, orders.quantity, goods.price, goods.img FROM orders JOIN goods ON orders.good =goods.title   WHERE user_id='{query.message.chat.id}'")
         data=list((cursor.fetchall())) 
+                       
         cursor.close()
         mydb.close()
       
