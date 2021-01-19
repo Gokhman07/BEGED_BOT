@@ -68,7 +68,7 @@ def main():
 
     my_bot.dispatcher.add_handler(MessageHandler(Filters.regex('Начать'), sms))  # обрабатываем текс кнопки
    
-    my_bot.dispatcher.add_handler(MessageHandler(Filters.location, get_location))  # обработчик полученной геопозиции
+   # my_bot.dispatcher.add_handler(MessageHandler(Filters.location, get_location))  # обработчик полученной геопозиции
     
     
     my_bot.dispatcher.add_handler(MessageHandler(Filters.text, get_goods))
