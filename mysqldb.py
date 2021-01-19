@@ -22,10 +22,10 @@ def build_cats(bot, update):
       
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
 
         cursor = mydb.cursor()
@@ -47,10 +47,10 @@ def build_regex_cats():
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged",
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66",
           )
 
 
@@ -73,10 +73,10 @@ def build_regex_subcats():
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
 
         cursor = mydb.cursor()
@@ -114,10 +114,10 @@ def build_subcats(bot, update):
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )            
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )            
        
         cursor = mydb.cursor()
         cursor.execute(f"SELECT name FROM subcategories JOIN categories ON subcategories.categ_id=categories.id  WHERE categories.title='{bot.message.text}'")
@@ -140,10 +140,10 @@ def build_goods(bot, update):
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
         
         cursor = mydb.cursor()
@@ -170,10 +170,10 @@ def add_order(bot, update):
           
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
         query = bot.callback_query
    
         data=(query['message']['reply_markup'])
@@ -207,10 +207,10 @@ def get_goods(bot, update):
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
         
         cursor = mydb.cursor()
@@ -240,10 +240,10 @@ def get_cart(bot, update):
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
         
         cursor = mydb.cursor()
@@ -274,10 +274,10 @@ def delete_cart(bot, update):
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
         query = bot.callback_query
         cursor = mydb.cursor()
@@ -297,11 +297,11 @@ def edit_cart(bot, update, quer=0):
 
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
         
-        database="data_beged" )
+        database="heroku_4afafbce41d9e66" )
         global i
         global edit_good
         query = bot.callback_query
@@ -348,20 +348,20 @@ def plus_quan(bot, update):
         global edit_good
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
         
-        database="data_beged" )
+        database="heroku_4afafbce41d9e66" )
 
         query = bot.callback_query
        
         
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
         query = bot.callback_query
         cursor = mydb.cursor()
@@ -384,20 +384,20 @@ def minus_quan(bot, update):
         global edit_good
     
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
         
-        database="data_beged" )
+        database="heroku_4afafbce41d9e66" )
 
         query = bot.callback_query
       
         
         mydb = pymysql.connect(
-        host="127.0.0.1",
-        user="root",
-        password="printer10",
-        database="data_beged" )
+        host="eu-cdbr-west-03.cleardb.net",
+        user="b48ccb42b8085e",
+        password="35496a0e1113b15",
+        database="heroku_4afafbce41d9e66" )
 
 
         
