@@ -75,7 +75,7 @@ def build_regex_subcats():
         host="esilxl0nthgloe1y.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
         user="ay1092ivipeccfsg",
         password="ylydt486n6y4z8nj",
-        database="s352k345888a" )
+        database="s352k345888bpm4d" )
 
 
         cursor = mydb.cursor()
