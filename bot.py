@@ -15,7 +15,7 @@ from handlers import *
 
 from utility import get_keyboard
 
-import sqlite3
+#import sqlite3
 from mysqldb import *
 
 
