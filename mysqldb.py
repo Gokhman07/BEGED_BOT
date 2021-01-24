@@ -316,7 +316,8 @@ def edit_cart(bot, update, quer=0):
       
         ls_info=[]
       
-         
+        if i==len(data):
+             i=0
         
         if i < len(data):
             
